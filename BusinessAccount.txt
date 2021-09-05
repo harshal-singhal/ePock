@@ -1,0 +1,881 @@
+Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Account details: 
+cityname 
+state
+ziocode
+regnum 
+legalname
+tradingname
+url
+f_n
+l_n
+email
+17673335
+0400958997
+password 
+Details of the user:
+-----------------Begin----------------------Account details: 
+cityname 
+state
+ziocode
+regnum 
+legalname
+tradingname
+url
+f_n
+l_n
+email
+17647730
+0407744578
+password
+Details of the user:
+-----------------Begin----------------------Account details: 
+cityname 
+state
+ziocode
+regnum 
+legalname
+tradingname
+url
+f_n
+l_n
+email
+17664010
+0405056914
+password
+Details of the user:
+-----------------Begin----------------------Account details: 
+cityname 
+state
+ziocode
+regnum 
+legalname
+tradingname
+url
+f_n
+l_n
+email
+17648177
+0406216048
+password
+Details of the user:
+Details of the user:
+-----------------Begin----------------------Details of the user:
+-----------------Begin----------------------Account details: 
+Details of the user:
+-----------------Begin----------------------Account details: 
+City namerzzr
+Details of the user:
+-----------------Begin----------------------Account details: 
+City namerzzr
+Details of the user:
+-----------------Begin----------------------Account details: 
+City namerzzr
+statehrkrg
+Details of the user:
+-----------------Begin----------------------Account details: 
+City namerzzr
+statehrkrg
+Zipcode38479873
+Registrationnumber8454
+Legal namefezgdz
+Trading nameefje
+Urlwww.yigof.com
+First_nameabc
+Last_Nameagn
+E_mailepaw@yopmail.com
+Busii_Num17635393
+Mobile_Number0408430812
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City namerzzr
+statehrkrg
+Zipcode38479873
+Registrationnumber8454
+Legal namefezgdz
+Trading nameefje
+Urlwww.jtgaa.com
+First_nameabc
+Last_Nameagn
+E_mailxpep@yopmail.com
+Busii_Num17620023
+Mobile_Number0404142283
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City namerzzr
+statehrkrg
+Zipcode38479873
+Registrationnumber8454
+Legal namefezgdz
+Trading nameefje
+Urlwww.ytsnq.com
+First_nameabc
+Last_Nameagn
+E_mailrucm@yopmail.com
+Busii_Num17613632
+Mobile_Number0407188277
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.vvygo.com
+First_name: abc
+Last_Name: agn
+E_mail: nkod@yopmail.com
+Busii_Num: 17674141
+Mobile_Number: 0400983001
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.mmoro.com
+First_name: abc
+Last_Name: agn
+E_mail: jbif@yopmail.com
+Busii_Num: 17654473
+Mobile_Number: 0403615081
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.ngyih.com
+First_name: abc
+Last_Name: agn
+E_mail: ebwc@yopmail.com
+Busii_Num: 17614635
+Mobile_Number: 0402991253
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.bbozo.com
+First_name: abc
+Last_Name: agn
+E_mail: mftt@yopmail.com
+Busii_Num: 17699928
+Mobile_Number: 0404663553
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.uebok.com
+First_name: abc
+Last_Name: agn
+E_mail: rguy@yopmail.com
+Busii_Num: 17641714
+Mobile_Number: 0402383052
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.avhtz.com
+First_name: abc
+Last_Name: agn
+E_mail: xzrs@yopmail.com
+Busii_Num: 17618954
+Mobile_Number: 0407348051
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wkwqu.com
+First_name: abc
+Last_Name: agn
+E_mail: nxyi@yopmail.com
+Busii_Num: 17636182
+Mobile_Number: 0404895484
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.izufg.com
+First_name: abc
+Last_Name: agn
+E_mail: sxfz@yopmail.com
+Busii_Num: 17612686
+Mobile_Number: 0408613932
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.penwp.com
+First_name: abc
+Last_Name: agn
+E_mail: bskk@yopmail.com
+Busii_Num: 17646173
+Mobile_Number: 0404279887
+Password: Hi!12345Details of the user:
+-----------------Begin-----------------------------------Time---------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.tgucd.com
+First_name: abc
+Last_Name: agn
+E_mail: nvrn@yopmail.com
+Busii_Num: 17630902
+Mobile_Number: 0409842184
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.ifdot.com
+First_name: abc
+Last_Name: agn
+E_mail: htwq@yopmail.com
+Busii_Num: 17624402
+Mobile_Number: 0403396971
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.xmmwz.com
+First_name: abc
+Last_Name: agn
+E_mail: yflm@yopmail.com
+Busii_Num: 17687312
+Mobile_Number: 0400619896
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:current_time
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.lqdhh.com
+First_name: abc
+Last_Name: agn
+E_mail: qqpv@yopmail.com
+Busii_Num: 17602883
+Mobile_Number: 0408351218
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:16:22:22
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.yywac.com
+First_name: abc
+Last_Name: agn
+E_mail: xchn@yopmail.com
+Busii_Num: 17601830
+Mobile_Number: 0407204033
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:16:22:38
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.idyuv.com
+First_name: abc
+Last_Name: agn
+E_mail: wdop@yopmail.com
+Busii_Num: 17678158
+Mobile_Number: 0403979094
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:16:24:48
+Todays_date:date.today()
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.lyovh.com
+First_name: abc
+Last_Name: agn
+E_mail: nbjt@yopmail.com
+Busii_Num: 17698156
+Mobile_Number: 0407839415
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:16:25:53
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.jrmye.com
+First_name: abc
+Last_Name: agn
+E_mail: ompd@yopmail.com
+Busii_Num: 17693158
+Mobile_Number: 0402063661
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:16:27:55
+Today_date:Today
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.nyagn.com
+First_name: abc
+Last_Name: agn
+E_mail: fves@yopmail.com
+Busii_Num: 17659407
+Mobile_Number: 0401127170
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time:16:30:08
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.ldvkl.com
+First_name: abc
+Last_Name: agn
+E_mail: lhid@yopmail.com
+Busii_Num: 17620886
+Mobile_Number: 0400781586
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:04:40PM on August 31, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.prpld.com
+First_name: abc
+Last_Name: agn
+E_mail: hbnn@yopmail.com
+Busii_Num: 17606003
+Mobile_Number: 0407516723
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:04:41PM on August 31, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.kurfn.com
+First_name: abc
+Last_Name: agn
+E_mail: ccbz@yopmail.com
+Busii_Num: 17606634
+Mobile_Number: 0401987788
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:04:43PM on August 31, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wfbbp.com
+First_name: abc
+Last_Name: agn
+E_mail: xbos@yopmail.com
+Busii_Num: 17668423
+Mobile_Number: 0401061707
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:04:53PM on August 31, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.gwpkj.com
+First_name: abc
+Last_Name: agn
+E_mail: gypf@yopmail.com
+Busii_Num: 17698739
+Mobile_Number: 0406827413
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:04:58PM on August 31, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.sbkrr.com
+First_name: abc
+Last_Name: agn
+E_mail: cnfs@yopmail.com
+Busii_Num: 17601332
+Mobile_Number: 0407316762
+Password: Hi!12345
+Account Created ?: : Created
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:27AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.tyjlp.com
+First_name: abc
+Last_Name: agn
+E_mail: ltpg@yopmail.com
+Busii_Num: 17604764
+Mobile_Number: 0405789234
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:28AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.rnpkd.com
+First_name: abc
+Last_Name: agn
+E_mail: iuvn@yopmail.com
+Busii_Num: 17629820
+Mobile_Number: 0405550113
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:30AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.jllhs.com
+First_name: abc
+Last_Name: agn
+E_mail: wtts@yopmail.com
+Busii_Num: 17672188
+Mobile_Number: 0400070357
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:33AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.meqcj.com
+First_name: abc
+Last_Name: agn
+E_mail: vuzi@yopmail.com
+Busii_Num: 17643790
+Mobile_Number: 0409170866
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:37AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.tnutj.com
+First_name: abc
+Last_Name: agn
+E_mail: bxdz@yopmail.com
+Busii_Num: 17615682
+Mobile_Number: 0404440828
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:38AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.jyuba.com
+First_name: abc
+Last_Name: agn
+E_mail: geee@yopmail.com
+Busii_Num: 17697791
+Mobile_Number: 0401024804
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:11:39AM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.gnztk.com
+First_name: abc
+Last_Name: agn
+E_mail: dihi@yopmail.com
+Busii_Num: 17625299
+Mobile_Number: 0401650253
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:12:02PM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.imgqn.com
+First_name: abc
+Last_Name: agn
+E_mail: tano@yopmail.com
+Busii_Num: 17626344
+Mobile_Number: 0407196645
+Password: Hi!12345
+Account Created ?: : Created
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:12:23PM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.qzloy.com
+First_name: abc
+Last_Name: agn
+E_mail: hmpo@yopmail.com
+Busii_Num: 17652360
+Mobile_Number: 0408586803
+Password: Hi!12345
+Account Created ?: : Created
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:12:25PM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.pvpsp.com
+First_name: abc
+Last_Name: agn
+E_mail: txyz@yopmail.com
+Busii_Num: 17693171
+Mobile_Number: 0403813635
+Password: Hi!12345
+Account Created ?: : Created
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:12:26PM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.gvgpu.com
+First_name: abc
+Last_Name: agn
+E_mail: khje@yopmail.com
+Busii_Num: 17657598
+Mobile_Number: 0402031734
+Password: Hi!12345
+Account Created ?: : Created
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:12:27PM on September 01, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.zsyba.com
+First_name: abc
+Last_Name: agn
+E_mail: awlx@yopmail.com
+Busii_Num: 17695046
+Mobile_Number: 0400926883
+Password: Hi!12345
+Account Created ?: : Created
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:09:51AM on September 02, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wfwoa.com
+First_name: abc
+Last_Name: agn
+E_mail: mwdi@yopmail.com
+Busii_Num: 17651300
+Mobile_Number: 0408677102
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:09:51AM on September 02, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.bopsc.com
+First_name: abc
+Last_Name: agn
+E_mail: aeko@yopmail.com
+Busii_Num: 17699498
+Mobile_Number: 0402527998
+Password: Hi!12345Details of the user:
+-----------------Begin----------------------Account details: 
+Current_time_Time:10:08AM on September 02, 2021
+City name: rzzr
+state: hrkrg
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.ehhka.com
+First_name: abc
+Last_Name: agn
+E_mail: afgj@yopmail.com
+Busii_Num: 17690928
+Mobile_Number: 0405589032
+Password: Hi!12345
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+1. Space is not allowed: FAIL
+
+
+2. Blank is not allowed: PASS
+
+
+3. Numerics are not allowed: FAIL
+
+
+4. Special characters are not allowed: FAIL
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Not Created
+
+
+1. Space is not allowed: FAIL
+
+
+Account Created ?: : Not Created
+
+
+1. Space is not allowed: FAIL
+
+
+Account Created ?: : Not Created
+
+
+1. Space is not allowed: FAIL
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+Account Created ?: : Not Created
+
+
+1. Space is not allowed: FAIL
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+
+1. Space is not allowed: FAIL
+
+
+2. Blank is not allowed: PASS
+
+
+3. Numerics are not allowed: FAIL
+
+
+4. Special characters are not allowed: FAIL
+
+
+5. Space is not allowed: FAIL
+
+
+6. Blank is not allowed: FAIL
+
+
+7. Numerics are not allowed: FAIL
+
+
+8. Special characters are not allowed: FAIL
+
+
+9. Blank is not allowed: FAIL
+
+
+10. Only valid mobile numbers are accepted: FAIL
+
+
+11. Blank is not allowed: FAIL
+
+
+12. Blank is not allowed: FAIL
+
+
+13. Space is not allowed: FAIL
+
+
+Account Created ?: : Not Created
+
+
+Account Created ?: : Not Created
+
+
+1. Space is not allowed: FAIL
+
