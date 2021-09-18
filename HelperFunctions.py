@@ -57,7 +57,7 @@ def IndividualAccountRegistration(f_n, l_n, email, address, m_number, password, 
         driver.find_element_by_xpath("""//*[@id="exampleModal"]/div/div/div[2]/button""").click()
     except NoSuchElementException:
         print ("Account couldn't be created !!")
-        time.sleep(2)
+        time.sleep(1)
         driver.quit()
         return False  
     #It means Account is created Successfully
@@ -167,14 +167,16 @@ def GenerateName(length):
 
 ##---------------------MobileNumber generation-----------
 def GenerateMobileNumber(countryIndex):
+  mobile = 0
   if(countryIndex == 1):
       print("Country: Australia")
       mobile_length = 7
       mobile_random = "".join(random.choice(string.digits) for i in range(mobile_length))
       mobile = "040" + mobile_random
+      return mobile
   else:
-      print("Todo: Other countries")
-  return mobile
+      print("Todo: Other countries. ERROR has occurred")
+      return mobile
 
 ##---------------------MobileNumber generation for New zealand-----------
 def GenerateMobileNumber_NZ(length):

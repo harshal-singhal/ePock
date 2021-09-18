@@ -1,0 +1,294 @@
+UAT admin portal (only for Australia)
+link: 		http://3.13.199.239/admin
+username: 	admin@e-pocket.com.au
+password: 	jMkd$#Treyui*QW!$$UVY&#
+
+PROD admin portal (only for Australia)
+link: 		http://3.13.199.239/epocketadmin/
+username: 	admin@e-pocket.com.au
+password: 	jMkd$#Treyui*QW!$$UVY&#
+
+SHIFT Admin portal
+link: 		http://prod-e-pocketexchange.s3-website-us-east-1.amazonaws.com/wallet
+username: 	Taphafaye152@gmail.com
+password: 	Tapha$@faye1520
+
+e-Pocket Back-Office portal
+link: https://config.epocket.shiftmarketsdev.com/sign-in
+username: ePocketAdmin
+Password: FleurMari$@1520
+
+
+
+
+
+******************Admin app credential PROD *******************----------
+fay@e-pocket.com.au
+superadmin-access
+
+
+*************Tapha -- PROD+UAT Account****************
+0406163444
+Tapha$@faye1520
+
+
+************Research email account*************
+name: research@e-pocket.com.au
+password: research1520$@
+
+
+
+
+		++++++++++++++++++++++++++++++++ Fees Structure ++++++++++++++++++++++++++++++++++++++++
+1- the trading fees currently set for (buy/sell crypto): 1%.
+
+2- the crypto withdrawal fees: 1% (minimum amount for crypto is $11)
+
+3- fee for sending money from e-pocket wallet to e-pocket trading wallet: 0.5% (money deducts at trading wallet side)
+
+4- the fee for withdrawing money from e-Pocket trading wallet back to e-Pocket wallet: 0.5%
+
+5- the fees for sending money from one individual user e-pocket wallet to another individual user e-pocket wallet: 0%
+
+6- the fees from one individual users to a business user: 1.5% (charged on the amount received by the business or merchant)
+															   (we charge merchants 1.5% but we do not charge individual users in their 
+															    particular scenario)							
+																
+7- the fees for sending money from business to individual user is 0%
+
+8- the fees for sending money from business to business user is 1.5%		
+
+9 - Poli fees is 1% on its Gateway												
+
+
++++++++++ Gmail OTP +++++++++++++++
+username: joinaadish
+Password: Megha@#1986
+
+
+++++++++++++++++++++++++++++++++  UAT Accounts  +++++++++++++++++++++++++++++++++++++++++++++++++++
+Australia 9876543210 --- $106 in trading wallet
+Senegal 987654327 
+New Zealand 9876543211
+Costa Rica 9876543213
+China 98765432142
+South Korea 98765432190
+Hong Kong 98765432
+USA 9876543221
+Canada     9876543222
+Netherlands 9876543232
+Germany 987654325212
+France 9876543246
+belgium 9876543298
+sweden 	9876543286
+norway 98765489
+japan 98765432656
+nigeria 98765432493
+ivory 98765481
+South Africa 9876543273
+rwanda 9876545938
+Kenya 9876543256
+uk 9876543249
+
+
+
++++++++++++++++++++++++++++++++++ Bank Account Details ++++++++++++++++++++++++++
+Poli Details
+Common weath bank
+client number: 92983874
+pwd: laura06081988
+------------------------
+epocket card details
+tapha faye
+5217 2952 8855 5208--------- DON'T USE IT
+03/22
+885
+
+
+++++++++++++++++++++++++++++++++++ PROD ACCOUNTS ++++++++++++++++++++++++++++++
+Australia user PROD Account with 5$
+9876543212
+Hi!12345
+----------------
+
+
+
+----------UAT---------------------------
+---------Business user --Khazakstan------
+Username - 8966512342
+password - Hi!12345
+-----------
+Username - 9876543332
+password - Hi!12345
+---------Individual user --Khazakstan------
+7654321467
+Ashna@1991
+
+-----------------UAT----------------------
+---------Business user --Sweden------
+Username - 9876543331
+password - Hi!12345
+Username - 9876544432
+password - Hi!12345
+---------Normal user --Sweden------
+9876543111
+Hi!12345
+
+
+
+---------------PROD--------------------------
+---------Business user --Australia------
+Username - 9876542111 - 0,98
+password - Hi!12345
+----------------------
+Username - 9876542112
+password - Hi!12345
+
+
+---------Individual user --Australia------
+9876543212 - 1,13 -- 2,13 -- 3,13 - 4,13
+Aerospace!123
+-----------------
+9876543255
+Hi!12345
+
+2 tests ----------------------- Check history in receiving accounts ----
+B (9876542112) to B(9876542111)
+B (9876542112) to I(9876543255)
+
+
+
+
+---------UAT Australia---------------------------
+---------Individual-----------
+9876543210
+Ashna@1991
+1234567811
+Hi!12345
+---------Business-----------
+1234567822
+Hi!12345
+
+1234567833
+Hi!12345
+
+
+----------China PROD--------------------------
+---------Individual-----------
+
+98765432140
+98765432141
+98765432145 with money
+
+
+----------------------------------------
+
+-------------------ToDelete Individual PROD------------
+Canada - 8679921347
+USA - 7015168317
+
+
+-------------KYC Check for accounts---------------
+9888765432 - 9 mb  - Hi!12345
+9876543212 - 8 mb - Aerospace!123
+
+9876540000 - 7mb
+9876540001 - 6mb
+9876540002 - 5mb
+9876540003 - 4mb
+9876540004 - 3mb
+9876540005 - 2mb
+9876540006 - 1mb
+9876540007 - 500kb
+9876540008 -
+9876540008 -
+
+---------UAT------------
+9876540011 - 2 + 2 MB
+9876540012 - 2 + 2 MB
+9876540013 - 2 + 2 MB
+9876540014 - 3 + 3 MB
+9876540015 - 3 + 3 MB
+9876540016 - 3 + 3 MB
+
+9876540017 - pending(unusable)
+9876540018
+9876540019
+
+-------------------- Sync Check --- PROD -----------
+Web 1: 1234560000
+Web 2: 1234560001
+
+
+
+#########################Remittance--------------
+MTN Rwanda :250786131337
+MTN Ghana :233245820552
+MTN Congo B:242068263604 
+MTN Cameroun :237654086210 
+MTN Cote d'Ivoire :2250506951833
+MTN Benin : 22996126100
+MTN Zambia :260762438114
+Voda Mozambique :258849905407 
+Airtel Malawi : 265982636793
+Airtel Uganda : 256752610088
+
+
+---------------------- Asupay ----------------------
+https://testbank-uat.azupay.com.au/#!/testbank
+
+Account 1(normal)  : 478332156  ---  divtest@yopmail.com
+Account 2(normal)  : 478332100  ---  divtest2@yopmail.com
+
+Account 3(Business): 478332111  ---  divtest3@yopmail.com
+Account 4(Business): 478332122  ---  divtest4@yopmail.com
+
+
+Paypass ---- with Azupay ---------------------------
+I to I - (no fees)
+Account 1 --->> 10 -->> Account 2 = 9.90 sent from Account 1 = 9.900 received in Account 2 - PASS
+
+I to B - (1.5% fees)
+Account 1 --->> 10 -->> Account 3 = 9.90 sent from Account 1 = 9.752 received in Account 3 - PASS
+
+B to I - (no fees)
+Account 3 --->> 10 -->> Account 2 = 9.90 sent from Account 3 = 9.90 received in Account 2 - Pass
+
+B to B - (1.5% fees)
+Account 3 --->> 10 -->> Account 4 = 9.90 sent from Account 3 = 9.752 received in Account 4 - PASS
+
+
+
+-------------------------------Newzealand Prod----------------------------------------
+33456000
+Hi!12345
+
+-------------- Poli NZ UAT check -----------------------------
+Normal Accounts
+Acc 1 - 9876543211 (Ashna@1991)  -- 25.85
+Acc 2 - 094399999  (Hi!12345)    -- koi@yopmail.com
+
+Business Accounts
+Acc 3 - 094399990 (Hi!12345)     -- koii@yopmail.com
+Acc 4 - 094399991 (Hi!12345)     -- koiii@yopmail.com
+
+-------------------------- Poli NZ -----------------------------
+Bank: Westpac
+341877727
+Epocket2018!
+
+First car: Fiat
+oldest cousin: Ksusha
+food: Manti
+----------------------------------------------------
+deposit ---- Acc 1 - 2 - 2.02(bank) - 27.85 - +1 -  28.85 - +1 - 29.85
+
+Paypass--
+I to I
+9876543211 to (1) 094399999 -- 094399999 received  -- 1     -- PASS
+I to B
+9876543211 to (1) 094399990 -- 094399990 received  -- 0.985 -- PASS
+B to B
+094399990 to (1) 094399991 -- 094399991 received   -- 0.985 -- PASS
+B to I
+094399990 to (1) 9876543211 -- 9876543211 received --  1    -- PASS (30.85)
