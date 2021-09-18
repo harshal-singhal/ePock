@@ -13,18 +13,22 @@ import random
 import string
 import time
 from datetime import datetime
+from email.parser import HeaderParser
+import imaplib,time
+
+
 
 
 
 #-------------Individual Registration--------------
-def IndividualAccountRegistration(f_n, l_n, email, address, m_number, password):
+def IndividualAccountRegistration(f_n, l_n, email, address, m_number, password, countryindex):
     PATH = "C:\Program Files (x86)\chromedriver.exe"
     driver = webdriver.Chrome(PATH)
-    driver.get("http://demo.e-pocketexchange.com/welcome/")
+    #driver.get("https://www.e-pocketexchange.com/epportal/login")
+    driver.get("http://demo.e-pocketexchange.com/epportal/login")
     driver.maximize_window()
     
     #Start with main page
-    driver.find_element_by_class_name("btn-get-started").click()
     driver.find_element_by_partial_link_text("Sign Up").click()
     driver.find_element_by_class_name("normal").click()
     time.sleep(1)
@@ -33,6 +37,13 @@ def IndividualAccountRegistration(f_n, l_n, email, address, m_number, password):
     driver.find_element_by_name('first_name').send_keys(f_n)
     driver.find_element_by_name('last_name').send_keys(l_n)
     driver.find_element_by_name('email').send_keys(email)
+    
+    county_x_path = "/html/body/app-root/div/app-nregister/div/form/div/div[3]/div[1]/div/div/ul/li[" + str(countryindex)   + "]"
+    driver.find_element_by_class_name('coutry-dropdown').click()
+    time.sleep(1)
+    driver.find_element_by_xpath(county_x_path).click()
+    
+    
     driver.find_element_by_name('address').send_keys(address)
     driver.find_element_by_name('mobile_no').send_keys(m_number)    
     driver.find_element_by_name('dob1').click()
@@ -42,34 +53,40 @@ def IndividualAccountRegistration(f_n, l_n, email, address, m_number, password):
     driver.find_element_by_class_name("btn-primary").click()
     time.sleep(2)
     
-    root = tk.Tk()
-    root.withdraw()
-    verdict = messagebox.askyesno("Verdict", "Account should not be created ?")
-    print(verdict)
-    time.sleep(2)
+    try:
+        driver.find_element_by_xpath("""//*[@id="exampleModal"]/div/div/div[2]/button""").click()
+    except NoSuchElementException:
+        print ("Account couldn't be created !!")
+        time.sleep(2)
+        driver.quit()
+        return False  
+    #It means Account is created Successfully
+    print ("Account is created successfully !!!")
+    time.sleep(1)
     driver.quit()
-    return verdict
-    
-    
-    
-    
+    return True
+
     
 #---------------Business Registration--------------
-def BusinessAccountRegistration(cityname, state, ziocode, regnum, legalname, tradingname, url, f_n, l_n, email, bcn, m_number, password, password1):
+def BusinessAccountRegistration(countryindex, cityname, state, ziocode, regnum, legalname, tradingname, url, f_n, l_n, email, bcn, m_number, password, password1):
   PATH = "C:\Program Files (x86)\chromedriver.exe"
   driver = webdriver.Chrome(PATH)
-  ##driver.get("http://demo.e-pocketexchange.com/welcome/")
-  driver.get("https://www.e-pocketexchange.com/welcome/")
+  #driver.get("http://demo.e-pocketexchange.com/welcome/")
+  driver.get("http://demo.e-pocketexchange.com/epportal/login")
   print(driver.title)
   driver.maximize_window()
     
   #Start with main page
-  driver.find_element_by_class_name("btn-get-started").click()
+  #driver.find_element_by_class_name("btn-get-started").click()
   driver.find_element_by_partial_link_text("Sign Up").click()
   driver.find_element_by_class_name("business").click()
   time.sleep(1)
     
   # 1st page starts here
+  #/html/body/app-root/div/app-bregister/div/div[3]/form[1]/div/div[3]/div[1]/div/div/ul/li[2]
+  county_x_path = "/html/body/app-root/div/app-bregister/div/div[3]/form[1]/div/div[3]/div[1]/div/div/ul/li[" + str(countryindex)   + "]"
+  driver.find_element_by_class_name('coutry-dropdown').click()
+  driver.find_element_by_xpath(county_x_path).click()
   driver.find_element_by_name('city').send_keys(cityname)
   driver.find_element_by_name('address').click()
   driver.switch_to.window(driver.window_handles[1])
@@ -149,20 +166,29 @@ def GenerateName(length):
   return name
 
 ##---------------------MobileNumber generation-----------
-def GenerateMobileNumber(length):
-  mobile_length = length
-  mobile_random = "".join(random.choice(string.digits) for i in range(mobile_length))
-  mobile = "040" + mobile_random
+def GenerateMobileNumber(countryIndex):
+  if(countryIndex == 1):
+      print("Country: Australia")
+      mobile_length = 7
+      mobile_random = "".join(random.choice(string.digits) for i in range(mobile_length))
+      mobile = "040" + mobile_random
+  else:
+      print("Todo: Other countries")
   return mobile
 
 ##---------------------MobileNumber generation for New zealand-----------
-def GenerateMobileNumber_NZ():
+def GenerateMobileNumber_NZ(length):
   mobile_length = 5 #total length is 9 for new zealand
   mobile_random = "".join(random.choice(string.digits) for i in range(mobile_length))
   mobile = "0943" + mobile_random
   return mobile
 
-
+##-------------------------------Mobilenumber for nigeria---------------------
+def GenerateMobileNumber_NIGIRIEA(length):
+  mobile_length = 7 #total length is 10 for nigiria
+  mobile_random = "".join(random.choice(string.digits) for i in range(mobile_length))
+  mobile = "706" + mobile_random
+  return mobile
 ##-------------Business contact number-----------------
 def GenerateBusinesscontactNumber(length):
   mobile_length = length
@@ -179,12 +205,13 @@ def Generateurl(length):
 
 ##----------------------Writting in file-------------------
 
-def SaveIndividualAccount(f_name, l_name, email, address, mobile, password):
+def SaveIndividualAccount(f_name, l_name, email, address, mobile, password, c_Index):
     File_Handle = open("IndividualAccount.txt", 'a')
     File_Handle.write("\nIndividual Account details: \n"
                       + "First name: " + f_name     + "\n"
                       + "Last name: "  + l_name     + "\n"
                       + "Email: "      + email      + "\n"
+                      + "Country: "    + str(c_Index)    + "\n"
                       + "Address: "    + address    + "\n"
                       + "Mobile: "     + mobile     + "\n"
                       + "Password: "   + password)
@@ -221,13 +248,13 @@ def BeginTest(field_name):
                       "---------------------------------------\n")
     File_Handle.close()
 
-def SetVerdictIndividual(Check_statement, verdict):
+def SetVerdictIndividual(Check_statement, AccountCreatedOrNot):
     File_Handle = open("IndividualAccount.txt", 'a')
     File_Handle.write("\n" + Check_statement + ": ")
-    if verdict:
-        File_Handle.write("PASS")
-    else:
+    if AccountCreatedOrNot:
         File_Handle.write("FAIL")
+    else:
+        File_Handle.write("PASS")
     File_Handle.write("\n\n")
     File_Handle.close()
     
@@ -247,4 +274,40 @@ def DisplayAll(f_name, l_name, email, mobile, password):
                       + "Last name: "  + l_name     + "\n"
                       + "Email: "      + email      + "\n"
                       + "Mobile: "     + mobile     + "\n"
-                      + "Password: "   + password)    
+                      + "Password: "   + password)  
+
+##------------------------------Account activation------------
+def Activate_account(email):
+    PATH = "C:\Program Files (x86)\chromedriver.exe"
+    driver = webdriver.Chrome(PATH)
+    driver.get("https://yopmail.com/en/")
+    print(driver.title)
+    driver.maximize_window()
+    driver.find_element_by_id('accept').click()
+    #driver.find_element_by_xpath('//*[@id="accept"]')
+    ##email = HelperFunctions.GenerateEmail_ID(4)
+    print(email)
+    driver.find_element_by_class_name('ycptinput').send_keys(email)
+    driver.find_element_by_xpath('//*[@id="refreshbut"]/button/i').click()
+    driver.switch_to_frame("ifmail")
+    ep = driver.find_element_by_link_text('link')
+    driver.implicitly_wait(500)
+    ep.click()
+    time.sleep(10)
+    
+    
+#-------------------for login---------------------------
+    
+def Account_login(bcn, password):
+    PATH = "C:\Program Files (x86)\chromedriver.exe"
+    driver = webdriver.Chrome(PATH)
+    driver.get("http://demo.e-pocketexchange.com/epportal/login")
+    driver.maximize_window()
+    driver.find_element_by_id("mob").send_keys(bcn)
+    password2 = password
+    driver.find_element_by_id("password").send_keys(password2)
+    driver.find_element_by_class_name("btn-primary").click()
+    time.sleep(5)
+    driver.find_element_by_id("exampleModal").click()
+    driver.switch_to.window(driver.window_handles[-1])
+    driver.find_element_by_xpath("""//*[@id="exampleModal"]/div/div/div[2]/button[1]""").click()

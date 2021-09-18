@@ -19,7 +19,7 @@ driver.maximize_window()
 driver.find_element_by_id('accept').click()
 #driver.find_element_by_xpath('//*[@id="accept"]')
 ##email = HelperFunctions.GenerateEmail_ID(4)
-email = "div112"
+email = "div"
 print(email)
 driver.find_element_by_class_name('ycptinput').send_keys(email)
 driver.find_element_by_xpath('//*[@id="refreshbut"]/button/i').click()

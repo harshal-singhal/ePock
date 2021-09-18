@@ -21,14 +21,16 @@ email_length = 4
 ##---------city-----------
 
 # Test case number 1
-cityname = ""
+countryindex = 15
 url = HelperFunctions.Generateurl(5)
 email= HelperFunctions.GenerateEmail_ID(email_length)
 bcn = HelperFunctions.GenerateBusinesscontactNumber(5)
-m_number = HelperFunctions.GenerateMobileNumber(7)
-result = HelperFunctions.BusinessAccountRegistration(cityname, state, ziocode, regnum, legalname, tradingname, url, f_n, l_n, email, bcn, m_number, password, password1)
+m_number = HelperFunctions.GenerateMobileNumber_NIGIRIEA(7)
+result = HelperFunctions.BusinessAccountRegistration(countryindex, cityname, state, ziocode, regnum, legalname, tradingname, url, f_n, l_n, email, bcn, m_number, password, password1)
 HelperFunctions.SetVerdictforbusiness("Account Created ?: ", result)
 HelperFunctions.SetVerdict("1. Space is not allowed", result)
+HelperFunctions.Activate_account(email)
+HelperFunctions.Account_login(bcn, password)
 
 
 '''#Test case number 2

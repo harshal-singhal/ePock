@@ -7,7 +7,8 @@ F_name = "Test_first_name"
 L_name = "Test_last_name"
 password = "Hi!12345" 
 address = "test address"
-email_length = 4
+email_length = 4 # length = 4 is choosen as email length
+countryIndex = 1 # Australia
 number_length = 7
 
 #---------------------
@@ -18,11 +19,13 @@ HelperFunctions.BeginTest("First Name")
 # Test case number 1
 F_name = " "
 email = HelperFunctions.GenerateEmail_ID(email_length)
-mobile = HelperFunctions.GenerateMobileNumber(number_length)
-HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile, password)
-result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, mobile, password)
+mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
+HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile, password, countryIndex)
+result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, mobile, password, countryIndex)
 HelperFunctions.SetVerdictIndividual("1. Space is not allowed", result)
 
+
+'''
 # Test case number 2
 F_name = ""
 email = HelperFunctions.GenerateEmail_ID(email_length)
@@ -181,6 +184,7 @@ HelperFunctions.SetVerdictIndividual("13. Space is not allowed", result)
 #----------------------
 #
 
+'''
 '''
 #--------------------------------------------
 #Account login
