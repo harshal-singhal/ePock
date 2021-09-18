@@ -26,7 +26,13 @@ url = HelperFunctions.Generateurl(5)
 email= HelperFunctions.GenerateEmail_ID(email_length)
 bcn = HelperFunctions.GenerateBusinesscontactNumber(5)
 m_number = HelperFunctions.GenerateMobileNumber_NIGIRIEA(7)
-result = HelperFunctions.BusinessAccountRegistration(countryindex, cityname, state, ziocode, regnum, legalname, tradingname, url, f_n, l_n, email, bcn, m_number, password, password1)
+result = HelperFunctions.BusinessAccountRegistration(countryindex, cityname, state, 
+                                                     ziocode, regnum, legalname, 
+                                                     tradingname, url, f_n, l_n, email, 
+                                                     bcn, m_number, password, password1)
+HelperFunctions.SaveBusinessAccount(cityname, state, ziocode, regnum, legalname, 
+                                    tradingname, url, f_n, l_n, email, bcn, 
+                                    m_number, password)
 HelperFunctions.SetVerdictforbusiness("Account Created ?: ", result)
 HelperFunctions.SetVerdict("1. Space is not allowed", result)
 HelperFunctions.Activate_account(email)

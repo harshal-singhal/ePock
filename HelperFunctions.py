@@ -220,15 +220,15 @@ def SaveIndividualAccount(f_name, l_name, email, address, mobile, password, c_In
     File_Handle.close()
     
 def SaveBusinessAccount(cityname, state, ziocode, regnum, legalname, tradingname, url, f_n, l_n, email, bcn, m_number, password):  
-    datetime.date.today().strftime("%B %d, %Y")
-    c = datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")
+    #datetime.date.today().strftime("%B %d, %Y")
+    #c = datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")
     ##--------------------Date-------------
     File_Handle = open("BusinessAccount.txt", 'a')
     File_Handle.write("Details of the user:\n"
     ##----------time---------------
     "-----------------Begin----------------------"
     "Account details: \n"
-    + "Current_time_Time:"      + c             + "\n"
+    #+ "Current_time_Time:"      + c             + "\n"
     + "City name: "             + cityname      + "\n"
     + "state: "                 + state         + "\n"
     + "Zipcode: "               + ziocode       + "\n"
@@ -242,6 +242,7 @@ def SaveBusinessAccount(cityname, state, ziocode, regnum, legalname, tradingname
     + "Busii_Num: "             + bcn           + "\n"
     + "Mobile_Number: "         + m_number      + "\n"
     + "Password: "              + password)
+    File_Handle.close()
 
 def BeginTest(field_name):
     File_Handle = open("IndividualAccount.txt", 'a')

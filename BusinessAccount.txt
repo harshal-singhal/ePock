@@ -1,0 +1,32 @@
+
+Account Created ?: : Not Created
+
+
+1. Space is not allowed: FAIL
+
+
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
+Details of the user:
+-----------------Begin----------------------Account details: 
+City name: TestCity
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.larno.com
+First_name: abc
+Last_Name: agn
+E_mail: afls@yopmail.com
+Busii_Num: 17691069
+Mobile_Number: 7066317055
+Password: Hi!12345
+Account Created ?: : Created
+
+
+1. Space is not allowed: PASS
+
