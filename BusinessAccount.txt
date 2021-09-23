@@ -1,32 +1,798 @@
 
-Account Created ?: : Not Created
+-----------------Begin---------------
+Test case for: City Name
+---------------------------------------
 
-
-1. Space is not allowed: FAIL
-
-
-Account Created ?: : Created
-
-
-1. Space is not allowed: PASS
-
-Details of the user:
------------------Begin----------------------Account details: 
-City name: TestCity
+Business Account details: 
+City name: 
+address: Testaddress
 state: TestState
 Zipcode: 38479873
 Registrationnumber: 8454
 Legal name: fezgdz
 Trading name: efje
-Url: www.larno.com
+Url: www.aznwx.com
 First_name: abc
 Last_Name: agn
-E_mail: afls@yopmail.com
-Busii_Num: 17691069
-Mobile_Number: 7066317055
+E_mail: qzut@yopmail.com
+Busii_Num: 0409662371
+Mobile_Number: 0408183030
 Password: Hi!12345
-Account Created ?: : Created
+1. Blank is not allowed: PASS
 
 
-1. Space is not allowed: PASS
+Business Account details: 
+City name:  
+address: Testaddress
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.fiqne.com
+First_name: abc
+Last_Name: agn
+E_mail: ouur@yopmail.com
+Busii_Num: 0402204059
+Mobile_Number: 0404608371
+Password: Hi!12345
+2. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: 123
+address: Testaddress
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.lflib.com
+First_name: abc
+Last_Name: agn
+E_mail: loqs@yopmail.com
+Busii_Num: 0400043286
+Mobile_Number: 0400247014
+Password: Hi!12345
+3. Numerics are not allowed: PASS
+
+
+Business Account details: 
+City name: 123
+address: Testaddress
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.jtjlc.com
+First_name: abc
+Last_Name: agn
+E_mail: mtxx@yopmail.com
+Busii_Num: 0404264663
+Mobile_Number: 0400808561
+Password: Hi!12345
+4. special characters are not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: Street Address
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: 
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wunra.com
+First_name: abc
+Last_Name: agn
+E_mail: fcea@yopmail.com
+Busii_Num: 0404298525
+Mobile_Number: 0407008873
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address:  
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.rmysu.com
+First_name: abc
+Last_Name: agn
+E_mail: cskg@yopmail.com
+Busii_Num: 0400183628
+Mobile_Number: 0409142963
+Password: Hi!12345
+2. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: &!§%
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.omfgp.com
+First_name: abc
+Last_Name: agn
+E_mail: rcum@yopmail.com
+Busii_Num: 0400369430
+Mobile_Number: 0401065168
+Password: Hi!12345
+3. special characters are not allowed: FAIL
+
+
+-----------------Begin---------------
+Test case for: State
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state:  
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.elmnw.com
+First_name: abc
+Last_Name: agn
+E_mail: bfli@yopmail.com
+Busii_Num: 17680093
+Mobile_Number: 0407280380
+Password: Hi!12345
+1. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: 
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.xqmhm.com
+First_name: abc
+Last_Name: agn
+E_mail: nifh@yopmail.com
+Busii_Num: 17620324
+Mobile_Number: 0409183502
+Password: Hi!12345
+2. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: 123
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.qzwhm.com
+First_name: abc
+Last_Name: agn
+E_mail: byad@yopmail.com
+Busii_Num: 17676773
+Mobile_Number: 0403666386
+Password: Hi!12345
+3. Numerics are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: &§$
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.gkyjf.com
+First_name: abc
+Last_Name: agn
+E_mail: minj@yopmail.com
+Busii_Num: 17687919
+Mobile_Number: 0406850591
+Password: Hi!12345
+4. special characters are not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: zipcode
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode:  
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.jvpcf.com
+First_name: abc
+Last_Name: agn
+E_mail: kizh@yopmail.com
+Busii_Num: 17645682
+Mobile_Number: 0401187557
+Password: Hi!12345
+1. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wbdzw.com
+First_name: abc
+Last_Name: agn
+E_mail: pagt@yopmail.com
+Busii_Num: 17661516
+Mobile_Number: 0401130889
+Password: Hi!12345
+2. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: abc
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.pzszi.com
+First_name: abc
+Last_Name: agn
+E_mail: zrqj@yopmail.com
+Busii_Num: 17674412
+Mobile_Number: 0404134208
+Password: Hi!12345
+3. Alphabets are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: &§$
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wzzzf.com
+First_name: abc
+Last_Name: agn
+E_mail: trwl@yopmail.com
+Busii_Num: 17675806
+Mobile_Number: 0407343359
+Password: Hi!12345
+4. special characters are not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: CompanyRegistrationNumber
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber:  
+Legal name: fezgdz
+Trading name: efje
+Url: www.lrqha.com
+First_name: abc
+Last_Name: agn
+E_mail: fwqc@yopmail.com
+Busii_Num: 17684982
+Mobile_Number: 0407428314
+Password: Hi!12345
+1. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 
+Legal name: fezgdz
+Trading name: efje
+Url: www.sjjoy.com
+First_name: abc
+Last_Name: agn
+E_mail: nahk@yopmail.com
+Busii_Num: 17698055
+Mobile_Number: 0405908883
+Password: Hi!12345
+2. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: abc
+Legal name: fezgdz
+Trading name: efje
+Url: www.auvui.com
+First_name: abc
+Last_Name: agn
+E_mail: uhwz@yopmail.com
+Busii_Num: 17667071
+Mobile_Number: 0407481137
+Password: Hi!12345
+3. Alphabets are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: &%§
+Legal name: fezgdz
+Trading name: efje
+Url: www.bkzhm.com
+First_name: abc
+Last_Name: agn
+E_mail: yzht@yopmail.com
+Busii_Num: 17654232
+Mobile_Number: 0409841312
+Password: Hi!12345
+4. special characters are not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: Legel Name Of Company
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name:  
+Trading name: efje
+Url: www.flcim.com
+First_name: abc
+Last_Name: agn
+E_mail: cpqk@yopmail.com
+Busii_Num: 17604469
+Mobile_Number: 0400883300
+Password: Hi!12345
+1. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: 
+Trading name: efje
+Url: www.bderl.com
+First_name: abc
+Last_Name: agn
+E_mail: jwcc@yopmail.com
+Busii_Num: 17643655
+Mobile_Number: 0408463630
+Password: Hi!12345
+2. Blank is not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: Company Trading Name
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: 
+Url: www.ijvsr.com
+First_name: abc
+Last_Name: agn
+E_mail: jvew@yopmail.com
+Busii_Num: 17635942
+Mobile_Number: 0407570768
+Password: Hi!12345
+1. Blank is allowed: FAIL
+
+
+-----------------Begin---------------
+Test case for: Company Trading Name
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: 
+First_name: abc
+Last_Name: agn
+E_mail: zaeq@yopmail.com
+Busii_Num: 17661705
+Mobile_Number: 0400571147
+Password: Hi!12345
+7. Blank is not allowed: FAIL
+
+
+-----------------Begin---------------
+Test case for: First Name
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.xqdkb.com
+First_name: 
+Last_Name: agn
+E_mail: qhwi@yopmail.com
+Busii_Num: 0409725282
+Mobile_Number: 0408781190
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.lufec.com
+First_name:  
+Last_Name: agn
+E_mail: guji@yopmail.com
+Busii_Num: 0406493343
+Mobile_Number: 0403555510
+Password: Hi!12345
+2. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.hcvcj.com
+First_name: 123
+Last_Name: agn
+E_mail: brjp@yopmail.com
+Busii_Num: 0401939893
+Mobile_Number: 0409219354
+Password: Hi!12345
+3. Numerics are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.hpemz.com
+First_name: &!§%
+Last_Name: agn
+E_mail: vbwl@yopmail.com
+Busii_Num: 0400739735
+Mobile_Number: 0406855302
+Password: Hi!12345
+4. special characters are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.huteu.com
+First_name: 343hhh
+Last_Name: agn
+E_mail: lzzz@yopmail.com
+Busii_Num: 0406477807
+Mobile_Number: 0407498839
+Password: Hi!12345
+5. Alphanumeric are not allowed: FAIL
+
+
+-----------------Begin---------------
+Test case for: Last Name
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.itbkc.com
+First_name: TestFirst
+Last_Name: 
+E_mail: gldg@yopmail.com
+Busii_Num: 0404060068
+Mobile_Number: 0401683260
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.yydfh.com
+First_name: TestFirst
+Last_Name:  
+E_mail: zgwc@yopmail.com
+Busii_Num: 0404715631
+Mobile_Number: 0404466376
+Password: Hi!12345
+2. Only Space as character is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.ohnyw.com
+First_name: TestFirst
+Last_Name: 123
+E_mail: zmek@yopmail.com
+Busii_Num: 0408468325
+Mobile_Number: 0408856563
+Password: Hi!12345
+3. Numerics are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.iasei.com
+First_name: TestFirst
+Last_Name: &!§%
+E_mail: vrrc@yopmail.com
+Busii_Num: 0400685132
+Mobile_Number: 0400419502
+Password: Hi!12345
+4. special characters are not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.yvaoc.com
+First_name: TestFirst
+Last_Name: 343hhh
+E_mail: loyo@yopmail.com
+Busii_Num: 0409965977
+Mobile_Number: 0400084210
+Password: Hi!12345
+5. Alphanumeric are not allowed: FAIL
+
+
+-----------------Begin---------------
+Test case for: E-mail
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.ilrod.com
+First_name: TestFirst
+Last_Name: TestLast
+E_mail: 
+Busii_Num: 17616179
+Mobile_Number: 0403834689
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: Mobile Number
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.bcsoy.com
+First_name: TestFirst
+Last_Name: TestLast
+E_mail: wjnj@yopmail.com
+Busii_Num: 0408521893
+Mobile_Number: 
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.esmlv.com
+First_name: TestFirst
+Last_Name: TestLast
+E_mail: hesd@yopmail.com
+Busii_Num: 0403531214
+Mobile_Number: 9169607590
+Password: Hi!12345
+2. Only valid numbers are accepted: PASS
+
+
+-----------------Begin---------------
+Test case for: Business Contact Number
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.nplnp.com
+First_name: TestFirst
+Last_Name: TestLast
+E_mail: ithq@yopmail.com
+Busii_Num: 
+Mobile_Number: 0400268407
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+Business Account details: 
+City name: TestCity
+address: testaddress
+state: TestState
+Zipcode: 12345
+Registrationnumber: 12345
+Legal name: TestLegalName
+Trading name: TestTradingName
+Url: www.blxae.com
+First_name: TestFirst
+Last_Name: TestLast
+E_mail: bcjp@yopmail.com
+Busii_Num: 0020138116
+Mobile_Number: 0402967904
+Password: Hi!12345
+2. Only Space as character is not allowed: FAIL
+
+
+Business Account details: 
+City name: TestCity
+address: Testaddress
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.wwlto.com
+First_name: abc
+Last_Name: 343hhh
+E_mail: skbe@yopmail.com
+Busii_Num: 0403484207
+Mobile_Number: 0406582193
+Password: Hi!12345
+5. Alphanumeric are not allowed: FAIL
+
+
+-----------------Begin---------------
+Test case for: E-mail
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: Testaddress
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.ggyke.com
+First_name: abc
+Last_Name: TestLast
+E_mail: 
+Busii_Num: 17604755
+Mobile_Number: 0401169048
+Password: Hi!12345
+1. Blank is not allowed: PASS
+
+
+-----------------Begin---------------
+Test case for: Mobile Number
+---------------------------------------
+
+Business Account details: 
+City name: TestCity
+address: Testaddress
+state: TestState
+Zipcode: 38479873
+Registrationnumber: 8454
+Legal name: fezgdz
+Trading name: efje
+Url: www.sfmas.com
+First_name: 343hhh
+Last_Name: agn
+E_mail: gwvj@yopmail.com
+Busii_Num: 0408326853
+Mobile_Number: 0401560525
+Password: Hi!12345
+5. Alphanumeric are not allowed: FAIL
 

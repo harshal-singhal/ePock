@@ -1,155 +1,30 @@
 
------------------Begin----------------------
-Test case for: First Name
----------------------------------------
-
 Individual Account details: 
-First name:  
+First name: 455jhjk
 Last name: Test_last_name
-Email: lzct@yopmail.com
+Email: tvxv@yopmail.com
 Country: 1
 Address: test address
-Mobile: 0406013899
+Mobile: 0400718585
 Password: Hi!12345
-1. Space is not allowed: PASS
-
-
 Individual Account details: 
-First name: 
+First name: 455jhjk
 Last name: Test_last_name
-Email: lsim@yopmail.com
+Email: klch@yopmail.com
 Country: 1
 Address: test address
-Mobile: 0400598291
+Mobile: 0407513768
 Password: Hi!12345
-2. Blank is not allowed: PASS
+5. Alphanumeric are not allowed: FAIL
 
 
 Individual Account details: 
-First name: 123
+First name: 455jhjk
 Last name: Test_last_name
-Email: zpye@yopmail.com
+Email: whzg@yopmail.com
 Country: 1
 Address: test address
-Mobile: 0407168667
+Mobile: 0401414126
 Password: Hi!12345
-3. Numerics are not allowed: PASS
-
-
-Individual Account details: 
-First name: $%
-Last name: Test_last_name
-Email: adrk@yopmail.com
-Country: 1
-Address: test address
-Mobile: 0408115581
-Password: Hi!12345
-4. Special characters are not allowed: PASS
-
-
------------------Begin----------------------
-Test case for: Last Name
----------------------------------------
-
-Individual Account details: 
-First name: Test_first_name
-Last name:  
-Email: dhrc@yopmail.com
-Country: 1
-Address: test address
-Mobile: 0406062276
-Password: Hi!12345
-5. Space is not allowed: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: 
-Email: ixst@yopmail.com
-Country: 1
-Address: test address
-Mobile: 0406474821
-Password: Hi!12345
-6. Blank is not allowed: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: 123
-Email: kaxu@yopmail.com
-Country: 1
-Address: test address
-Mobile: 0400142646
-Password: Hi!12345
-7. Numerics are not allowed: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: $%
-Email: arbg@yopmail.com
-Country: 1
-Address: test address
-Mobile: 0403859904
-Password: Hi!12345
-8. Special characters are not allowed: PASS
-
-
------------------Begin----------------------
-Test case for: Email ID
----------------------------------------
-
-Individual Account details: 
-First name: Test_first_name
-Last name: Test_last_name
-Email: 
-Country: 1
-Address: test address
-Mobile: 0409953338
-Password: Hi!12345
-9. Blank is not allowed: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: Test_last_name
-Email: xexy@yopmail.com
-Country: 1
-Address: test address
-Mobile: 2400348577
-Password: Hi!12345
-10. Only valid mobile numbers are accepted: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: Test_last_name
-Email: wyni@yopmail.com
-Country: 1
-Address: test address
-Mobile: 
-Password: Hi!12345
-11. Blank is not allowed: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: Test_last_name
-Email: lipx@yopmail.com
-Country: 1
-Address: 
-Mobile: 0403513465
-Password: Hi!12345
-12. Blank is not allowed: PASS
-
-
-Individual Account details: 
-First name: Test_first_name
-Last name: Test_last_name
-Email: hkyp@yopmail.com
-Country: 1
-Address:  
-Mobile: 0401757771
-Password: Hi!12345
-13. Space is not allowed: PASS
+5. Alphanumeric are not allowed: FAIL
 

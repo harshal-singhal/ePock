@@ -2,6 +2,7 @@ import HelperFunctions
 import random
 import string
 
+
 #Parameters for individual account
 F_name = "Test_first_name"
 L_name = "Test_last_name"
@@ -10,7 +11,9 @@ address = "test address"
 email_length = 4 # length = 4 is choosen as email length
 countryIndex = 1 # Australia
 number_length = 7
+prod_OR_uat = "UAT"
 
+'''
 #---------------------
 #BEGIN Test cases for "First Name"
 #----------------------
@@ -56,19 +59,30 @@ HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile,
 result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, 
                                                        mobile, password, countryIndex)
 HelperFunctions.SetVerdictIndividual("4. Special characters are not allowed", result)
+'''
+
+# Test case number 5
+F_name = "455" + "jhjk"
+email = HelperFunctions.GenerateEmail_ID(email_length)
+mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
+HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile, 
+                                      password, countryIndex)
+result = HelperFunctions.IndividualAccountRegistration(prod_OR_uat, F_name, L_name, email, address, 
+                                                       mobile, password, countryIndex)
+HelperFunctions.SetVerdictIndividual("5. Alphanumeric are not allowed", result)
 #---------------------
 #END Test cases for "First Name"
 #----------------------
 
 
-
+'''
 #---------------------
 #BEGIN Test cases for "Last Name"
 #----------------------
 F_name = "Test_first_name"
 HelperFunctions.BeginTest("Last Name")
 
-# Test case number 5
+# Test case number 1
 L_name = " "
 email = HelperFunctions.GenerateEmail_ID(email_length)
 mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
@@ -76,9 +90,9 @@ HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile,
                                       password, countryIndex)
 HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, 
                                               mobile, password, countryIndex)
-HelperFunctions.SetVerdictIndividual("5. Space is not allowed", result)
+HelperFunctions.SetVerdictIndividual("1. Space is not allowed", result)
 
-# Test case number 6
+# Test case number 2
 L_name = ""
 email = HelperFunctions.GenerateEmail_ID(email_length)
 mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
@@ -86,9 +100,9 @@ HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile,
                                       password, countryIndex)
 result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, 
                                                        mobile, password, countryIndex)
-HelperFunctions.SetVerdictIndividual("6. Blank is not allowed", result)
+HelperFunctions.SetVerdictIndividual("2. Blank is not allowed", result)
 
-# Test case number 7
+# Test case number 3
 L_name = "123"
 email = HelperFunctions.GenerateEmail_ID(email_length)
 mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
@@ -96,9 +110,9 @@ HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile,
                                       password, countryIndex)
 result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, 
                                                        mobile, password, countryIndex)
-HelperFunctions.SetVerdictIndividual("7. Numerics are not allowed", result)
+HelperFunctions.SetVerdictIndividual("3. Numerics are not allowed", result)
 
-# Test case number 8
+# Test case number 4
 L_name = "$%"
 email = HelperFunctions.GenerateEmail_ID(email_length)
 mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
@@ -106,7 +120,18 @@ HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile,
                                       password, countryIndex)
 result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, 
                                                        mobile, password, countryIndex)
-HelperFunctions.SetVerdictIndividual("8. Special characters are not allowed", result)
+HelperFunctions.SetVerdictIndividual("4. Special characters are not allowed", result)
+
+
+# Test case number 5
+L_name = "455jhjk"
+email = HelperFunctions.GenerateEmail_ID(email_length)
+mobile = HelperFunctions.GenerateMobileNumber(countryIndex)
+HelperFunctions.SaveIndividualAccount(F_name, L_name, email, address, mobile, 
+                                      password, countryIndex)
+result = HelperFunctions.IndividualAccountRegistration(F_name, L_name, email, address, 
+                                                       mobile, password, countryIndex)
+HelperFunctions.SetVerdictIndividual("5. Alphanumeric are not allowed", result)
 #---------------------
 #END Test cases for "Last Name"
 #----------------------
@@ -132,12 +157,12 @@ HelperFunctions.SetVerdictIndividual("9. Blank is not allowed", result)
 
 
 
-#---------------------
+
+#BEGIN Test #---------------------
 #BEGIN Test cases for "Date of Birth"
 #----------------------
 # This Test case should be done manually
-#---------------------
-#BEGIN Test cases for "Date of Birth"
+#---------------------cases for "Date of Birth"
 #----------------------
 #
 
@@ -207,20 +232,4 @@ HelperFunctions.SetVerdictIndividual("13. Space is not allowed", result)
 #BEGIN Test cases for "Password"
 #----------------------
 #
-
-
-'''
-#--------------------------------------------
-#Account login
-Button_GetStarted = driver.find_element_by_class_name("btn-get-started");
-Button_GetStarted.click()
-
-Field_MobileNumber = driver.find_element_by_id('mob')
-Field_MobileNumber.send_keys("9876543210")
-Field_Password= driver.find_element_by_id('password')
-Field_Password.send_keys("Ashna@1991")
-
-Button_Submit = driver.find_element_by_class_name("btn-primary");
-Button_Submit.click()
-#---------------------------------------------
 '''

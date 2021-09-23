@@ -285,10 +285,34 @@ deposit ---- Acc 1 - 2 - 2.02(bank) - 27.85 - +1 -  28.85 - +1 - 29.85
 
 Paypass--
 I to I
-9876543211 to (1) 094399999 -- 094399999 received  -- 1     -- PASS
+9876543211 to (1) 094399999 -- 094399999 received  --  1    -- PASS
 I to B
 9876543211 to (1) 094399990 -- 094399990 received  -- 0.985 -- PASS
 B to B
 094399990 to (1) 094399991 -- 094399991 received   -- 0.985 -- PASS
 B to I
 094399990 to (1) 9876543211 -- 9876543211 received --  1    -- PASS (30.85)
+
+
+-------------- Poli NZ PROD check -----------------------------
+Normal Accounts
+Acc 1 - 094308757  -- xfpc
+Acc 2 - 094397022  -- lvrd
+
+Business Accounts
+Acc 3 - 094397021     -- koio@yopmail.com
+Acc 4 - 094397023     -- koip@yopmail.com
+
+Paypass--
+I to I
+094308757 to (1) 094397022 -- 094397022 received  -- 1  --   Pass
+I to B
+094308757 to (1) 094397021 -- 094397021 received  -- 0.985 -- Pass
+B to B
+094397021 to (1) 094397023 -- 094397023 received   -- 0.985 -- Pass
+B to I
+094397021 to (1) 094308757 -- 094308757 received --  1    -- Pass
+
+
+----------------------------Android-------------------
+when we enter 0 amount, it is proceeding.
